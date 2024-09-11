@@ -1,3 +1,3 @@
 # weather_app_using_api_react_js
-# demo:
+# Live Preview:
 # https://weather-app-using-api-reactjs.netlify.app/
