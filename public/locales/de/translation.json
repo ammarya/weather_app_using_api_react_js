@@ -1,0 +1,18 @@
+{
+  "Zürich": "Zurich",
+  "Der Tiefwert": "Minimum",
+  "Der Höchstwert": "Maximum",
+  "Die Luftfeuchtigkeit": "Humidity",
+  "Die Temperatur": "Temperature",
+  "Die Windgeschwindigkeit": "Wind Speed",
+  "klarer Himmel": "clear sky",
+  "wenige Wolken": "few clouds",
+  "vereinzelte Wolken": "scattered clouds",
+  "durchbrochene Wolken": "broken clouds",
+  "Regenschauer": "shower rain",
+  "Regen": "rain",
+  "Gewitter": "thunderstorm",
+  "Schnee": "snow",
+  "Nebel": "mist"
+
+}
