@@ -44,7 +44,7 @@ function App() {
     icon: null
   })
 
-  const [local, setLocal] = useState("de")
+  const [local, setLocal] = useState("en")
 
 
   // ========== Event Handlers ========== //
@@ -52,11 +52,11 @@ function App() {
     if (local == "en") {
       setLocal("de");
       i18n.changeLanguage("de");
-      moment.locale("de");
+      moment.locale("en");
     } else {
       setLocal("en");
       i18n.changeLanguage("en");
-      moment.locale("en");
+      moment.locale("de");
     }
     setDateAndTime(moment().format("Do MMMM YYYY, hh:mm"));
 
@@ -64,7 +64,7 @@ function App() {
 
 
   useEffect(() => {
-    i18n.changeLanguage("de");
+    i18n.changeLanguage(local);
 
   }, []);
 
